@@ -26,4 +26,4 @@ for i in *wav_st.csv; do awk -F, '{for(i=1; i<=NF; i++) {a[i]+=$i; if($i!="") b[
 ~~~
 
 
-Finalmente se construyó el archivo .arff con la concatenación de los datos anteriores y el encabezado correspondiente para este tipo de archivos.
+Finalmente, se construyó el archivo .arff con la concatenación de los datos anteriores y el encabezado correspondiente para este tipo de archivos.
